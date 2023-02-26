@@ -108,7 +108,6 @@ public class Tarea_Est_Lista_Circular {
 
 
 //CLASE ListaCircular------------------------------------------------------------------------------------------------------------------------
-
 public class ListaCircular {
 Scanner scanner = new Scanner(System.in);
     nodoListaCircular primero;
@@ -157,9 +156,6 @@ Scanner scanner = new Scanner(System.in);
             actual = actual.siguiente;
         }while (actual != primero);
     }
-    
-    
-  
   
   public boolean buscarCircular(Producto x){
         nodoListaCircular actual = new nodoListaCircular();
@@ -181,7 +177,6 @@ Scanner scanner = new Scanner(System.in);
         return encontrado;
     }
    
-
 
   
   public void modificarProducto(int codigo, String nuevaDescripcion, int nuevoPrecio) {
