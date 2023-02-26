@@ -157,6 +157,8 @@ Scanner scanner = new Scanner(System.in);
             actual = actual.siguiente;
         }while (actual != primero);
     }
+    
+    
   
   
   public boolean buscarCircular(Producto x){
@@ -179,6 +181,7 @@ Scanner scanner = new Scanner(System.in);
         return encontrado;
     }
    
+
 
   
   public void modificarProducto(int codigo, String nuevaDescripcion, int nuevoPrecio) {
